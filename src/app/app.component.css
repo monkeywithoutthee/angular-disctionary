@@ -1,0 +1,98 @@
+
+.holder{
+  background-color: rgba(0,0,0,0.8);
+  padding: 20px;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  background-color: rgba(255,255,255,0.8);
+  padding:5px;
+  position:relative;
+  border-radius:5px;
+  border-radius: 5px;
+  height: 100%;
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.5);
+}
+.header{
+  text-align: center;
+  font-weight: 600;
+  font-size: larger;
+}
+.content{
+
+}
+.word{
+  padding: 1px;
+  margin-bottom: 2px;
+}
+.wordHolder{
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px;
+  margin: 10px;
+  border-radius:5px;
+}
+.headHolder{
+  padding: 10px;
+  margin: 10px;
+  border-radius:5px;
+  text-align: center;
+}
+.recentLinks{
+  padding:5px;
+  display:inline-block;
+}
+.divrecent{
+  display:inline-block;
+  padding:5px;
+}
+.recentHolder{
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px;
+  margin: 10px;
+  border-radius:5px;
+  font-size: smaller;
+  font-weight: lighter;
+  max-height: 100px;
+  overflow: auto;
+}
+.divrecent{
+
+}
+.deleteRecent{
+  padding:10px;
+  padding-left:3px;
+  cursor: pointer;
+}
+.viewWord{
+  padding:10px;
+  padding-right:3px;
+  cursor: pointer;
+}
+.definition{
+  height: 300px;
+  overflow: auto;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,1) inset;
+  padding: 10px;
+}
+.headHolderInt{
+  display:inline-block;
+  padding:3px;
+}
+.dictBtn{
+  background-color: rgba(255,255,255,0.7);
+}
+.dictBtn{
+  border-radius: 5px;
+  padding: 5px;
+}
+.dictIn{
+  padding: 5px;
+  border-radius: 5px;
+
+}

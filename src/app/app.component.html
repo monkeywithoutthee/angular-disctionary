@@ -1,0 +1,23 @@
+<div class="holder">
+    <div class="card">
+      <div class="header">Dictionary</div>
+      <div class="content">
+
+        <div class="headHolder">
+          <div class="headHolderInt">
+          <input id="tWord" type="search" class="dictIn" placeholder="look up word" (input)="onChangeEvent($event)" (keyup.enter)="fetchWord($event)" value="{{this.textInput}}">
+          </div>
+          <div class="headHolderInt">
+          <button type="button" class="dictBtn" (click)="fetchWord($event)" >look up word</button>
+          </div>
+        </div>
+        <div class="wordHolder">
+          <div class="word">Look Up a Word</div>
+          <div class="definition"></div>
+        </div>
+        <div class="recentHolder">
+          <div class="divrecent" *ngFor="let item of recentWords; index as i;"><span class="viewWord" (click)="viewRecent($event)">{{recentWords[i].word}}</span><span class="deleteRecent" (click)="deleteRecent($event)">x</span></div>
+        </div>
+      </div>
+    </div>
+</div>
