@@ -10,9 +10,9 @@ function rSC(data){
 			.replaceAll(/\“/g,"")
 			.replaceAll(/\"/g,"")
 			.replaceAll(/\'/g,"")
-			.replaceAll/\•/g,"")
+			.replaceAll(/\•/g,"")
 			.replaceAll(/\¥/g,"")
-			.replaceAll/\€/g,"")
+			.replaceAll(/\€/g,"")
 			.replaceAll(/\£/g,"")
 			.replaceAll(/\`/g,"");
 
