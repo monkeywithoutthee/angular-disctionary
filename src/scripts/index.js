@@ -4,17 +4,17 @@ console.log('inExt')
 function rSC(data){
 	//the objective it to replace any special characters which might conflict with JS within a string
 	//console.log('rsc receiving::',data);
-		data=data.replace(/\’/g,"&apos;")
-			.replace(/\‘/g,"&apos;")
-			.replace(/\”/g,"&prime;")
-			.replace(/\“/g,"&prime;")
-			.replace(/\"/g,"&prime;")
-			.replace(/\'/g,"&apos;")
-			.replace(/\•/g,"&bull;")
-			.replace(/\¥/g,"&yen;")
-			.replace(/\€/g,"&euro;")
-			.replace(/\£/g,"&pound;")
-			.replace(/\`/g,"&grave;");
+		data=data.replace(/\’/g,"")
+			.replace(/\‘/g,"")
+			.replace(/\”/g,"")
+			.replace(/\“/g,"")
+			.replace(/\"/g,"")
+			.replace(/\'/g,"")
+			.replace(/\•/g,"")
+			.replace(/\¥/g,"")
+			.replace(/\€/g,"")
+			.replace(/\£/g,"")
+			.replace(/\`/g,"");
 
 	 // console.log('rsc returning::',data);
 		return data;
