@@ -50,11 +50,11 @@ export class AppComponent {
       alert('Please enter  word!!');
     }else{
     var newData = new Promise<any>((resolve,reject)=>{
-     const path = 'https://apiapi.monkeywithoutthee.com/getWordFrom/58/'
+     const path = 'https://pathtoyourapi.ba/getWordFrom/'
           window.fetch(path, {
             method: 'POST',
             headers: {
-              'Accept': 'application/json','Content-Type': 'application/json','monkey':'spL1shSplAshSploS4'
+              'Accept': 'application/json','Content-Type': 'application/json','apikey':'yoursecretapikey'
             },
             body:JSON.stringify({text:rSC(this.textInput),fetchType:0})
           })
